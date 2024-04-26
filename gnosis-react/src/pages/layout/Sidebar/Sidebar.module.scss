@@ -12,8 +12,8 @@
 $sidebar-width: 15%;
 $sidebar-collapsed-width: 50px; // Enough space for icons and some padding
 $sidebar-transition-duration: 0.3s;
-$sidebar-background: #006e1b;
-$hover-background: #023820; // Lighter green for hover state
+$sidebar-background: #37823e;
+$hover-background: #c8d0cd; // Lighter green for hover state
 $sidebar-padding: 1.5rem;
 $text-color: white;
 $transition-effect: 0.4s ease;
@@ -44,7 +44,7 @@ $transition-duration: 0.3s; // Define your transition duration
     top: 0;
     overflow: hidden;
 
-    background: linear-gradient(135deg, $sidebar-background 0%, darken($sidebar-background, 5%) 100%);
+    // background: linear-gradient(135deg, $sidebar-background 0%, darken($sidebar-background, 5%) 100%);
     color: $text-color;
     height: 100vh;
     padding: $sidebar-padding;
@@ -65,7 +65,7 @@ $transition-duration: 0.3s; // Define your transition duration
         color: white;
         font-size: 24px; // Icon size
         position: absolute;
-        top: 10px; // Adjust as needed
+        top: 1.7rem; // Adjust as needed
         right: -1.7rem; // Adjust as needed
         padding-bottom: 2rem;
         cursor: pointer;
